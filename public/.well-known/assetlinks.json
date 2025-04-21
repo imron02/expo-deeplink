@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "id.meteor.alfamind_dev",
+      "sha256_cert_fingerprints": [
+        "0A:C0:66:FB:61:07:0A:72:84:D3:05:46:92:83:61:10:81:B0:19:A1:04:59:D8:CE:F8:09:6C:0C:E9:07:CA:E7",
+        "91:78:6F:50:65:EE:99:51:84:31:C1:2B:3C:68:14:4C:E2:4F:E2:01:55:68:F2:5A:26:59:FF:F8:1F:69:21:E4"
+      ]
+    }
+  }
+]
