@@ -17,7 +17,7 @@ export default function ReferralRedirect() {
     }, 1500);
 
     // Try to open app with deep link
-    window.location.href = `myapp://referral/${encodeURIComponent(code)}`;
+    window.location.href = `alfamind://referral/${encodeURIComponent(code)}`;
 
     return () => clearTimeout(fallbackTimeout);
   }, [code]);
