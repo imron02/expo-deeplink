@@ -18,10 +18,7 @@ export default function ReferralRedirect() {
 
     // Try to open app with deep link
     // Step 1 & 2: Try to open app or fallback to Play Store app
-    const intentUrl = `intent://referral/${encodeURIComponent(
-      code
-    )}#Intent;scheme=alfamind;package=id.meteor.alfamind;end`;
-    window.location.href = intentUrl;
+    window.location.href = `alfamind://referral/${encodeURIComponent(code)}`;
 
     return () => clearTimeout(fallbackTimeout);
   }, [code]);
